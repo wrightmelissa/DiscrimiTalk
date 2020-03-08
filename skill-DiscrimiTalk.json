@@ -1,0 +1,921 @@
+{
+  "intents": [
+    {
+      "intent": "speakTosomeone",
+      "examples": [
+        {
+          "text": "I wana speak to someone"
+        },
+        {
+          "text": "I want direct advice"
+        },
+        {
+          "text": "gimme help with stuff"
+        },
+        {
+          "text": "is there someone I can speak to"
+        },
+        {
+          "text": "I would like some one on one time"
+        },
+        {
+          "text": "I want to talk to someone"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "support",
+      "examples": [
+        {
+          "text": "I want support"
+        },
+        {
+          "text": "I need help"
+        },
+        {
+          "text": "How do I get support"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Ending this session"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "How cool is this?"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "discriminate_advice",
+      "examples": [
+        {
+          "text": "I am being discriminated for my colour"
+        },
+        {
+          "text": "I am being dicriminated against for my age"
+        },
+        {
+          "text": "I'm being discriminated for my disability"
+        },
+        {
+          "text": "#I'm being discriminated against for my race"
+        },
+        {
+          "text": "I'm being discriminated against racially."
+        },
+        {
+          "text": "Somebody was racist to me on the street."
+        },
+        {
+          "text": "I'm a victim of racism"
+        },
+        {
+          "text": "I've been discriminated against due to gender"
+        },
+        {
+          "text": "I've been discriminated against due to race"
+        },
+        {
+          "text": "I've been unfairly treated due to gender"
+        },
+        {
+          "text": "I was discriminated against because I was female"
+        },
+        {
+          "text": "I'm upset because I was discriminated against due to race"
+        },
+        {
+          "text": "I am being discriminated against"
+        },
+        {
+          "text": "What is discrimination"
+        },
+        {
+          "text": "what do I do if I'm being bullied?"
+        },
+        {
+          "text": "I am being bullied for my gender"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I am getting bored"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "bullying",
+      "examples": [
+        {
+          "text": "I'm being bullied for my age"
+        },
+        {
+          "text": "I'm being bullied for my gender"
+        },
+        {
+          "text": "they talk bad about me for my gender"
+        },
+        {
+          "text": "I am being subjected to racial bullying"
+        },
+        {
+          "text": "I'm being bullied for my race"
+        },
+        {
+          "text": "I'm a victim of sexism"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "age",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "old",
+          "synonyms": [
+            "aged ",
+            "older",
+            "elderly",
+            "mature",
+            "senior",
+            "elder",
+            "senile"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "young",
+          "synonyms": [
+            "younger",
+            "youth",
+            "youthful",
+            "juvenile",
+            "junior"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "physical-harassment",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "physical harassment",
+          "synonyms": [
+            "punch",
+            "hit",
+            "physical pain",
+            "bruise",
+            "cut",
+            "wound"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "gender",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "feminine",
+          "synonyms": [
+            "femininity",
+            "tr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sexual orientation",
+          "synonyms": [
+            "gay",
+            "bi-sexual",
+            "gender orientation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "transgender",
+          "synonyms": [
+            "no gender",
+            "transsexual",
+            "trans-sexual",
+            "trans-gender",
+            "transexual",
+            "sexless",
+            "neuter"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "masculine",
+          "synonyms": [
+            "masculinity"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sexual-harassment",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "sexual harrassment",
+          "synonyms": [
+            "harassment ",
+            "non-consential",
+            "involuntary",
+            "unwanted",
+            "exploitation",
+            "groping",
+            "touching",
+            "impropiety",
+            "assault",
+            "innapropriate",
+            "victimization",
+            "pressure "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "race",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Italian",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Spanish",
+          "synonyms": [
+            "Hispanic",
+            "Latino"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "East Asian",
+          "synonyms": [
+            "China",
+            "Japan",
+            "South Korea ",
+            "North Korea",
+            "Mongolia",
+            "Taiwan"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Russian",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "South Asian",
+          "synonyms": [
+            "India",
+            "Pakistan",
+            "Bangladesh",
+            "Sri Lanka",
+            "Nepal",
+            "Afghanistan",
+            "Bhutan",
+            "Maldives"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "West Asian",
+          "synonyms": [
+            "Armenia",
+            "Azerbaijan",
+            "Bahrain",
+            "Cyprus",
+            "Georgia",
+            "Iraq",
+            "Israel",
+            "Jordain",
+            "Kuwait",
+            "Lebanon",
+            "Oman",
+            "Palestine",
+            "Qatar",
+            "Saudi Arabia",
+            "Syria",
+            "Turkey",
+            "United Arab Emirates",
+            "Yemen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "American",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Greek",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "African",
+          "synonyms": [
+            "Black",
+            "African ethnicity",
+            "African Background"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "French",
+          "synonyms": [
+            "European"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "British Asian",
+          "synonyms": [
+            "second generation migrant asian",
+            "first generation migrant assistant"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "race",
+          "synonyms": [
+            "colour"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "white",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "African american",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "English",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can proceed to the chatroom as you are 13 or above\n"
+              },
+              {
+                "text": "Is there anything else I can help you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1583592297628",
+      "conditions": "@sys-number",
+      "dialog_node": "node_4_1583668060104"
+    },
+    {
+      "type": "standard",
+      "title": "Race",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I can connect to some users who have faced the same problems.  You are not alone in this situation, do not worry."
+              },
+              {
+                "text": "What is your age? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "@race",
+      "dialog_node": "node_6_1583592297628",
+      "previous_sibling": "node_10_1583664240598"
+    },
+    {
+      "type": "standard",
+      "title": "gender",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I can connect you with some users who are experiencing similar problems. Would you like to be added to a chat room?"
+              },
+              {
+                "text": "You are not alone in this situation. Would you like  to be added to a chatroom or talk to me or an expert?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@gender",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1583664240598",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure, we have professionals who we can put you in a chat with."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#speakTosomeone",
+      "dialog_node": "node_8_1583670086961",
+      "previous_sibling": "node_6_1583670870742"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like to be connected to some users who have experienced similar problems?"
+              },
+              {
+                "text": "I'm so sorry. Would you like to talk to me or to an expert?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@age",
+      "dialog_node": "node_2_1583664072283",
+      "previous_sibling": "node_6_1583592297628"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry I got a bit lost, tell me what happened?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_5_1583666797082",
+      "previous_sibling": "node_2_1583664072283"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for your time, always here to help"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_6_1583670870742",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Discrimination",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm very sorry to hear this.  Would you like some advice from me or from an expert?"
+              },
+              {
+                "text": "I fully sympathise with you. Whoever did that had no right to do so"
+              },
+              {
+                "text": "You can check out our practice scenarios, so that next time you are in this situation, you know how to cope."
+              },
+              {
+                "text": "Would you like to be placed in a Chat room with individuals experiencing similar problems?"
+              },
+              {
+                "text": "Do you mind telling me how you were/are being discriminated against?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For additional help and if you do not mind, can you tell me your race?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1583592297628"
+      },
+      "conditions": "#discriminate_advice",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_8_1583670086961",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi I am Pepper, I am here to help to support you and guide you through your problems. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "DiscrimiTalk",
+  "language": "en",
+  "description": ""
+}
